@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Prosto+One&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nikeboss{
+    
+    margin-left: 165px;
+    margin-top: 60px;
+}
+.nikebutton button{
+    margin-top: 60px;
+    background: #0F0F54;
+text-align: center;
+width: 181px;
+height: 60px;
+border-radius: 8px;
+color: #FFF;
+}
+.niketext{
+    margin-top: 150px;
+    width: 650px;
+height: 190px;
+opacity: 1;
+font-family: SF Pro Display;
+font-weight: 700;
+font-size: 80px;
+line-height: 100%;
+letter-spacing: -2%;
+
+
+}
+.nikelowtext{
+    margin-top: 27px;
+    width: 657px;
+height: 72px;
+opacity: 1;
+font-family: SF Pro Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+
+line-height: 36px;
+letter-spacing: 0%;
+
+}
+.nikebutton img{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 582px;
+   margin-top: -602px;
+}
+.adidasboss{
+margin-top: 168px;
+margin-left: 165px;
+}
+.adidas{
+    width: 1110px;
+    height: 496px;
+background-image: url(/img/Rectangle\ 10.svg);
+}
+.adidas1{
+display: flex;
+padding-top: 220px;
+justify-content: center;
+}
+.pumaboss{
+    margin-left: 165px;
+    margin-top: 370px;
+}
+.puma{
+  padding-top: 1px;
+   
+   width: 1110px;
+   height: 480px;
+   background: #0F0F54;
+   border-radius: 20px;
+}
+.puma1text{
+    
+    padding-top: 126px; /* ← margin-top emas */
+    margin-left: 52px;
+
+
+  
+  
+    width: 310px;
+height: 60px;
+opacity: 1;
+font-family: SF Pro Display;
+font-weight: 700;
+font-size: 50px;
+color: #FFF;
+}
+.puma2text{
+    color: #FFF;
+   margin-top: 156px;
+    margin-left: 52px;
+    width: 540px;
+height: 138px;
+opacity: 1;
+font-family: SF Pro Display;
+font-weight: 500;
+font-size: 20px;
+}
+.pumaimg{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -627px;
+    margin-right: 55px;
+}
+
+.diorboss{
+margin-top: 226px;
+margin-left: 125px;
+}
+.diorimg{
+width: 600px;
+height: 571px;
+
+}
+.dior1text{
+    overflow: hidden;
+width: 576px;
+height: 60px;
+opacity: 1;
+font-family: SF Pro Display;
+font-weight: 600;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: -1%;
+margin-left: 668px;
+padding-bottom: 100px;
+}
+.dior2text{
+    display: flex;
+    justify-content: end;
+    width: 540px;
+height: 171px;
+opacity: 1;
+font-family: SF Pro Display;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+letter-spacing: 0%;
+}

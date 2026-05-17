@@ -23,7 +23,7 @@ height: 60px;
 border-radius: 8px;
 color: #FFF;
 }
-.niketext{
+.niketext p{
     margin-top: 150px;
     width: 650px;
 height: 190px;
@@ -36,7 +36,7 @@ letter-spacing: -2%;
 
 
 }
-.nikelowtext{
+.nikelowtext p{
     margin-top: 27px;
     width: 657px;
 height: 72px;
@@ -82,7 +82,7 @@ justify-content: center;
    background: #0F0F54;
    border-radius: 20px;
 }
-.puma1text{
+.puma1text p{
     
     padding-top: 126px; /* ← margin-top emas */
     margin-left: 52px;
@@ -98,7 +98,7 @@ font-weight: 700;
 font-size: 50px;
 color: #FFF;
 }
-.puma2text{
+.puma2text p{
     color: #FFF;
    margin-top: 156px;
     margin-left: 52px;
@@ -125,7 +125,7 @@ width: 600px;
 height: 571px;
 
 }
-.dior1text{
+.dior1text p{
     overflow: hidden;
 width: 576px;
 height: 60px;
@@ -138,7 +138,7 @@ letter-spacing: -1%;
 margin-left: 668px;
 padding-bottom: 100px;
 }
-.dior2text{
+.dior2text p{
     display: flex;
     justify-content: end;
     width: 540px;
@@ -149,4 +149,121 @@ font-weight: 500;
 font-size: 20px;
 line-height: 34px;
 letter-spacing: 0%;
+}
+@media (max-width:414px) {
+
+    body {
+        max-width: 360px;
+    }
+
+    .nikeboss{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .nikeboss button {
+        width: 151px;
+        height: 57px;
+        font-family: SF Pro Display;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: -1%;
+
+    }
+
+
+    .niketext p {
+        font-family: SF Pro Display;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        width: 293px;
+        height: 86px;
+
+    }
+
+    .nikelowtext p {
+        font-family: SF Pro Display;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        width: 336px;
+        height: 98px;
+
+    }
+
+
+
+
+    .imgs img {
+        width: 307px;
+        height: 437px;
+        opacity: 1;
+        margin-top: 120px;
+        margin-left: 53px;
+
+    }
+ .adidasboss{
+margin-top: 168px;
+margin-left: 165px;
+}
+.adidas{
+    width: 1110px;
+    height: 496px;
+background-image: url(/img/Rectangle\ 10.svg);
+}
+.adidas1{
+display: flex;
+padding-top: 220px;
+justify-content: center;
+}
+  .pumaboss{
+    margin-left: 165px;
+    margin-top: 370px;
+}
+.puma{
+  padding-top: 1px;
+   
+   width: 1110px;
+   height: 480px;
+   background: #0F0F54;
+   border-radius: 20px;
+}
+.puma1text p{
+    
+    padding-top: 126px; /* ← margin-top emas */
+    margin-left: 52px;
+
+
+  
+  
+    width: 310px;
+height: 60px;
+opacity: 1;
+font-family: SF Pro Display;
+font-weight: 700;
+font-size: 50px;
+color: #FFF;
+}
+.puma2text p{
+    color: #FFF;
+   margin-top: 156px;
+    margin-left: 52px;
+    width: 540px;
+height: 138px;
+opacity: 1;
+font-family: SF Pro Display;
+font-weight: 500;
+font-size: 20px;
+}
+.pumaimg{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -627px;
+    margin-right: 55px;
+}
 }
